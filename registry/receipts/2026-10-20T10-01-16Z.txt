@@ -1,0 +1,5 @@
+Shared item registry ledger receipt
+time:    2026-10-20 10:01 UTC
+entries: 224
+head:    f43948990f812bd1a96681fa9d6098e41ec592238bfdb4c5b7b7d86511b7bd40
+check:   chain ok
