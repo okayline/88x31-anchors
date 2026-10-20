@@ -35,3 +35,4 @@ One line per hour the ledger changed. Times are UTC. Each line's proof is in rec
 | 2026-10-20 10:01 | 1471 | `c29f13e8b55ea8a90e86bdfd926af7ccc1c67a1cf346200f651f4d52b43af396` | [2026-10-20T10-01-16Z.txt](receipts/2026-10-20T10-01-16Z.txt) |
 | 2026-10-20 15:03 | 1620 | `03676b9954ac5dbd9da7e98bb9ebe9e7c6b2cd0894095dd0744c915168c3d76b` | [2026-10-20T15-03-03Z.txt](receipts/2026-10-20T15-03-03Z.txt) |
 | 2026-10-20 19:13 | 1645 | `2545c3593a2d65228ead2da1acdf1e83a63797dfd7befcad123cbd226035e2ca` | [2026-10-20T19-13-52Z.txt](receipts/2026-10-20T19-13-52Z.txt) |
+| 2026-10-20 22:17 | 1684 | `f296c9b90e42ef3b678170e105073edd4ae98ce996d8da09bacd049d2e889754` | [2026-10-20T22-17-55Z.txt](receipts/2026-10-20T22-17-55Z.txt) |
