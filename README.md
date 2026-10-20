@@ -17,14 +17,14 @@ kept by someone the webmaster doesn't control: **Bitcoin**.
 
 No crypto is bought, held or spent. OpenTimestamps is free and only uses Bitcoin as a notary nobody controls.
 
-## Three ledgers
+## Two ledgers
 
 The same job also stamps the **shared item registry's** ledger (the numbered copies and their histories used by every game),
 fetched from the dungeon-items Worker (`/api/registry/head`: entry count, newest fingerprint and copy count, nothing about who holds what).
 Its receipts live in [`registry/`](registry/), with their own `log.md`. Checking works the same way.
 
-And [Dawn Baton](https://dawn.88x31.app)'s ledger (every lap, stamp and unheld band), fetched from `https://dawn.88x31.app/api/ledger/head`
-(entry count and newest fingerprint, nothing about any player). Its receipts live in [`dawn-baton/`](dawn-baton/), with their own `log.md`.
+The other games' own ledgers (Dawn Baton once a day, scoundrel.exe after every finished run) write a **checkpoint** into the
+registry: their entry count and newest fingerprint. So the registry's receipts cover them too, with no receipts of their own.
 
 ## Checking a receipt yourself
 
