@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Hourly receipts for two ledgers: the 88x31 cLuB ledger and the shared item registry's ledger.
+"""Hourly receipts for three ledgers: the 88x31 cLuB ledger, the shared item registry's ledger and Dawn Baton's ledger.
 
 For each ledger:
 1. Ask its server for the current head (the latest fingerprint) and entry count.
@@ -8,7 +8,7 @@ For each ledger:
 3. Finish any proofs from the last few days that are still waiting on Bitcoin.
 4. Add one line per new receipt to the ledger's log.
 
-If one ledger can't be reached or reports a broken chain, the other is still stamped and the run
+If one ledger can't be reached or reports a broken chain, the others are still stamped and the run
 fails at the end, so GitHub emails the owner.
 
 The GitHub Action commits whatever changed. Nothing here needs a password or a key.
@@ -38,6 +38,7 @@ class Ledger:
 LEDGERS = [
     Ledger("88x31 cLuB", os.environ.get("LEDGER_URL", "https://88x31.app/api/ledger?limit=1"), ""),
     Ledger("Shared item registry", os.environ.get("REGISTRY_URL", "https://88x31.app/api/registry/head"), "registry"),
+    Ledger("Dawn Baton", os.environ.get("BATON_URL", "https://dawn.88x31.app/api/ledger/head"), "dawn-baton"),
 ]
 
 
