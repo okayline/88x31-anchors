@@ -36,8 +36,8 @@ class Ledger:
 
 
 LEDGERS = [
-    Ledger("88x31 cLuB", os.environ.get("LEDGER_URL", "https://88x31.app/api/ledger?limit=1"), ""),
-    Ledger("Shared item registry", os.environ.get("REGISTRY_URL", "https://88x31.app/api/registry/head"), "registry"),
+    Ledger("88x31 cLuB", os.environ.get("LEDGER_URL", "https://club.88x31.app/api/ledger?limit=1"), ""),
+    Ledger("Shared item registry", os.environ.get("REGISTRY_URL", "https://club.88x31.app/api/registry/head"), "registry"),
 ]
 
 

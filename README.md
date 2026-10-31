@@ -1,6 +1,6 @@
 # 88x31 cLuB ledger receipts
 
-Every button made, traded, fused or found in [~*~ 88x31 cLuB ~*~](https://88x31.app) goes into
+Every button made, traded, fused or found in [~*~ 88x31 cLuB ~*~](https://club.88x31.app) goes into
 the cLuB's **ledger**: one long chain where each entry's fingerprint is built from the one before it.
 Change any old entry and every fingerprint after it breaks.
 
